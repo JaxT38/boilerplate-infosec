@@ -3,6 +3,7 @@
 	"version": "0.0.1",
 	"description": "fcc backend boilerplate",
 	"main": "server.js",
+	"publishConfig": { "registry": "https://npm.pkg.github.com/" },
 	"scripts": {
 		"start": "node myApp.js"
 	},
@@ -19,4 +20,6 @@
 		"freecodecamp"
 	],
 	"license": "MIT"
+	
 }
+
